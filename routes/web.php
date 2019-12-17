@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'teste luan';
 });
+
+Route::get('/produtos','ProdutoController@lista');
